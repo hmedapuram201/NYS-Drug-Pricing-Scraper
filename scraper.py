@@ -77,3 +77,5 @@ for drug in Drugs:
             driver.refresh()
     time.sleep(2)
     driver.get("https://apps.health.ny.gov/pdpw/SearchDrugs/Home.action")
+
+driver.quit()
