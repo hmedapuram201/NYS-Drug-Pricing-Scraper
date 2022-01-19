@@ -20,7 +20,7 @@ today = date.today()
 options = Options()
 options.add_argument('--headless')
 options.add_argument('--disable-gpu')
-s = Service('/Users/haranathmedapuram/PycharmProjects/NYScraper/chromedriver')
+s = Service('[CHROMDRIVER PATH]')
 driver = webdriver.Chrome(service=s, options=options)
 driver.get("https://apps.health.ny.gov/pdpw/SearchDrugs/Home.action")
 drugselection = '//*[@id="availableDrugs"]'
