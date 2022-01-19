@@ -22,3 +22,4 @@ Next, replace the four 'XXXX's with your hostname, database name, username (defa
 
 Fourth, make sure to update the paths for all of the .txt files, export.csv and chromedriver in scraper.py & run the script. 
 This scraper utilizes the selenium, pandas, time, datetime & sqlalchemy packages, so make sure they are installed into your python library before running the scraper. 
+It is recommended you edit the DrugIDs.txt file to only contain 3-10 entries (XPaths) per script, so the scraper does not become overwhelmed. 
