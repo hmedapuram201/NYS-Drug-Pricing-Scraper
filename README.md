@@ -1,5 +1,5 @@
 # NYS Drug Pricing Scraper
-Python (Selenium) Scraper of https://apps.health.ny.gov/pdpw/SearchDrugs/Home.action with Output to CSV & MySQL
+Python (Selenium) Scraper of https://apps.health.ny.gov/pdpw/SearchDrugs/Home.action with output to CSV & MySQL
  
 If you want to reuse this scraper, please read these instructions:
 
