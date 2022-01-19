@@ -8,7 +8,7 @@ from selenium.webdriver.common.by import By
 from datetime import date
 from sqlalchemy import create_engine
 
-hostname = "localhost"
+hostname = "XXXX"
 dbname = "XXXX"
 uname = "XXXX"
 pwd = "XXXX"
